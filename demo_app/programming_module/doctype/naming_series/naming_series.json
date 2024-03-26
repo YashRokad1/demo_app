@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:TTT-{DD}-{MM}-{####}",
+ "creation": "2024-03-13 15:35:57.405447",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "autoimacrement",
+  "naming_series",
+  "pormpt",
+  "series",
+  "fromat"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "autoimacrement",
+   "fieldtype": "Data",
+   "label": "Autoimacrement"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "Yes\nNo\nOthor"
+  },
+  {
+   "fieldname": "pormpt",
+   "fieldtype": "Data",
+   "label": "Pormpt"
+  },
+  {
+   "fieldname": "series",
+   "fieldtype": "Data",
+   "label": "Series"
+  },
+  {
+   "fieldname": "fromat",
+   "fieldtype": "Data",
+   "label": "Fromat"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-13 17:13:03.573253",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Naming Series",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
